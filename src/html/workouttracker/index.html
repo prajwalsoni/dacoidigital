@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/tailwindStyle.css" />
+</head>
+
+<body>
+    <div class="p-9 flex flex-col h-screen overflow-y-auto items-center pb-[211px]">
+        <div class="font-semibold text-[20px] flex w-[100vw] justify-center">
+            <a href="../login/index.html"><img src="../../img/leftButton.svg" alt="leftButton"
+                    class="w-[21px] h-[21px] fixed left-3" /></a>
+            <span>Workout Tracker</span>
+        </div>
+        <br />
+        <a href="../workoutschedule/index.html">
+            <div class="flex flex-col gap-4 mt-4">
+                <img src="../../img/chart.png" alt="chart" class="w-[90vw]" />
+            </div>
+        </a>
+        <br />
+
+        <div
+            class="flex gap-3  items-center font-semibold border-[1.02px] border-[rgba(69,69,69,0.04)] rounded-[10px] px-[40px] py-[20px] w-[90vw] h-[50px] backdrop-filter backdrop-blur-[40.7121696472168px] bg-[linear-gradient(94deg,_rgba(129,_157,_255,_0.28)_0%,_rgba(16,_16,_16,_0.28)_100%)]">
+            <img src="../../img/alert.svg" alt="alert" />
+            <span class="font-medium text-[12px]">
+                You've burned fewer calories than yesterday. Time to get moving!
+            </span>
+        </div>
+        <br />
+
+        <div class="flex justify-between w-[80vw]">
+            <span class="font-semibold text-[16px]">
+                Upcoming Workout
+            </span>
+            <span class="font-medium text-[12px] text-[#7f7f7f]">
+                See more
+            </span>
+        </div>
+        </a>
+        <br />
+        <a href="../workoutschedule/index.html">
+            <div
+                class="rounded-[12px] w-[90vw] h-[75px] [box-shadow:-4px_8px_25px_-8px_rgba(0,_0,_0,_0.15)] bg-[#fff] p-3 flex justify-between items-center">
+                <img src="../../img/fullbodyworkout.svg" alt="fullbodyworkout" class="w-[343px] h-[75px]" />
+                <div class="w-[311px]">
+                    <sppan class="font-medium text-[12px]">Full Body Workout</sppan>
+                    <br />
+                    <span class="font-medium text-[10px] text-[#7f7f7f]">Today 3pm</span>
+                </div>
+                <div class="flex items-center justify-center w-full my-8">
+                    <label for="toggle1" class="flex items-center cursor-pointer">
+                        <input type="checkbox" id="toggle1" class="sr-only peer">
+                        <div
+                            class="block relative bg-[#8099ff] w-16 h-9 p-1 rounded-full before:absolute before:bg-[#fff] before:w-7 before:h-7 before:p-1 before:rounded-full before:transition-all before:duration-500 before:left-1 peer-checked:before:left-8 peer-checked:before:bg-white">
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </a>
+        <br />
+        <a href="../workoutschedule/index.html">
+            <div
+                class="rounded-[12px] w-[90vw] h-[75px] [box-shadow:-4px_8px_25px_-8px_rgba(0,_0,_0,_0.15)] bg-[#fff] p-3 flex justify-between items-center">
+                <img src="../../img/upperbodyworkout.svg" alt="fullbodyworkout" class="w-[343px] h-[75px]" />
+                <div class="w-[311px]">
+                    <sppan class="font-medium text-[12px]">Upper Body Workout</sppan>
+                    <br />
+                    <span class="font-medium text-[10px] text-[#7f7f7f]">4 Feb, 3:30 pm</span>
+                </div>
+                <div class="flex items-center justify-center w-full my-8">
+                    <label for="toggle2" class="flex items-center cursor-pointer">
+                        <input type="checkbox" id="toggle2" class="sr-only peer">
+                        <div
+                            class="block relative bg-[#8099ff] w-16 h-9 p-1 rounded-full before:absolute before:bg-[#fff] before:w-7 before:h-7 before:p-1 before:rounded-full before:transition-all before:duration-500 before:left-1 peer-checked:before:left-8 peer-checked:before:bg-white">
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </a>
+        <br />
+        <div class="font-semibold text-[16px] w-[90vw]">
+            <div> What Do You Want to Train</div>
+            <br />
+            <a href="../workoutschedule/index.html">
+                <div
+                    class="flex items-center justify-between p-6 rounded-[12px] w-[90vw] h-[124px] [box-shadow:-4px_8px_25px_-8px_rgba(0,_0,_0,_0.15)] bg-[rgba(140,_177,_255,_0.6)]">
+                    <div>
+                        <span class="font-medium text-[12px]">
+                            Full Body Workout
+                        </span>
+                        <br />
+                        <span class="font-medium text-[10px] text-[#2c2b2b]">
+                            Arms
+                            <br />
+                            Chest
+                        </span>
+                    </div>
+                    <div>
+                        <img src="../../img/workout.svg" alt="workout" class="w-[111px] h-[111px]" />
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="p-1 flex justify-between fixed bottom-0 float-start bg-[#fff] w-[100vw]">
+        <img src="../../img/home.svg" alt="home" class="w-[51px] h-[51px]" />
+        <img src="../../img/analytics.svg" alt="analytics" class="w-[51px] h-[51px]" />
+        <img src="../../img/search.svg" alt="home" class="w-[91px] h-[91px] float-start relative bottom-[31px]" />
+        <img src="../../img/camera.svg" alt="home" class="w-[51px] h-[51px]" />
+        <img src="../../img/profile.svg" alt="home" class="w-[51px] h-[51px]" />
+    </div>
+</body>
+
+</html>
